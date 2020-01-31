@@ -1,10 +1,11 @@
 # All Degree B-Tree
 A flexible B-Tree data structure for any possible given degree. (C++) 
 
-### Brief Introduction
+### Brief Introduction and How to Use
+A B-Tree structure is a tree that has equal height from given level to leaf and multiple datas in a single node (called degree and it must be determined beforehand). There are some rules for making this structure consistent.
+
 A linkedlist data structure is used for both stored data and children data in a single node of a tree. Although not included directly in the structure of the B-Tree, stack and queue are used for some function implementations.
 
-### HOW TO USE
 First, download the hpp files in the same file location with your cpp file you want to use B-Tree structure in. Then you need to include the files in the beginning of your C++ code as:
 >**#include "BTree.hpp"**
 
