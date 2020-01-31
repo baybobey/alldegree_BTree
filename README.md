@@ -1,4 +1,4 @@
-# alldegree_BTree
+# All Degree B-Tree
 A flexible B-Tree data structure for any possible given degree. (C++)
 
 ### Brief Introduction
