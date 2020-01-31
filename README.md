@@ -1,5 +1,5 @@
 # All Degree B-Tree
-A flexible B-Tree data structure for any possible given degree. (C++)
+A flexible B-Tree data structure for any possible given degree. (C++) 
 
 ### Brief Introduction
 A linkedlist data structure is used for both stored data and children data in a single node of a tree. Although not included directly in the structure of the B-Tree, stack and queue are used for some function implementations.
