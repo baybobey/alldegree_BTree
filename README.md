@@ -6,7 +6,7 @@ A linkedlist data structure is used for both stored data and children data in a 
 
 ### HOW TO USE
 First, you need to include the files in the beginning of your C++ code as: #include "BTree.hpp".
-You can define your object in your file as: BTree <type> name_of_obj(degree) (example: BTree &lt int &gt my_tree(4)).
+You can define your object in your file as: BTree <type> name_of_obj(degree) (example: BTree <int> my_tree(4)).
   
 <b>NOTE:</b> Default degree is 3, which is the minimum degree possible. If you try to enter smaller degree than 3 for your BTree, it throws an error message.
 
@@ -16,7 +16,7 @@ You can define your object in your file as: BTree <type> name_of_obj(degree) (ex
 3. The number of children a node can have (max: degree+1, always #of_elements+1 if not a leaf node).
 
 #### Object Functions
-Let's say you defined your object as: "BTree\<int> my_tree;".
+Let's say you defined your object as: "BTree &lt int &gt my_tree;".
 
 ##### Data Addition-Removal
 <li>void insert(T data)</li>
