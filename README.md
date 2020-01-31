@@ -35,7 +35,7 @@ Use this function for removing multiple element from your B-Tree. Removes the el
 Clears the whole B-Tree object (removes all the data in B-Tree).
 
 ##### Data Search
-*Node &ast search(T data)
+<li>Node* search(T data)</li>
 Searches the tree for given data. If exists, it returns pointer to the Node that the element is stored.
 
 ##### Capacity Checks
